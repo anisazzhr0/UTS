@@ -244,11 +244,40 @@
         iconUrl: 'https://img.icons8.com/?size=100&id=U1cbNtgDXO2m&format=png&color=000000',
             iconSize: [50, 50], // size of the icon
             });
-            L.marker([-7.765275, 110.372523], {icon: loc_route}).bindPopup('<b>Fakultas Teknik</b><br>Fakultas teknik adalah fakultas terbesar di UGM. <br> Link lokasi pada maps:').addTo(map);
-            L.marker([-7.770570, 110.381152], {icon: loc_route}).bindPopup('<b>Fakultas Hukum</b><br>Fakultas yang terdiri dari satu jurusan saja.').addTo(map);
-            L.marker([-7.772328, 110.380032], {icon: loc_route}).bindPopup('<b>Fakultas Psikologi</b><br>Fakultas Psikologi terdapat program reguler dan IUP.').addTo(map);
-            L.marker([-7.767102, 110.376176], {icon: loc_route}).bindPopup('<b>Fakultas MIPA</b><br>Fakultas yang terletak di jalan persatuan berkelompok dengan geografi dan biologi').addTo(map);
-            L.marker([-7.769448, 110.374062], {icon: loc_route}).bindPopup('<b>Fakultas KKMK</b><br>Fakultas yang menghasilkan tenaga kerja bidang kesehatan.').addTo(map);
+            L.marker([-7.765275, 110.372523], {icon: loc_route}).bindPopup(`
+                <b>Fakultas Teknik</b><br>
+                Fakultas teknik adalah fakultas terbesar di UGM.<br>
+                <img src="https://i.pinimg.com/736x/ee/2b/26/ee2b261b4837da8285d221ccee024b2c.jpg" width="150"><br>
+                <a href="https://maps.app.goo.gl/y8GdRnUqkdHkDJ9W8" target="_blank">Lihat di Google Maps</a>
+            `).addTo(map);
+
+            L.marker([-7.770570, 110.381152], {icon: loc_route}).bindPopup(`
+                <b>Fakultas Hukum</b><br>
+                Fakultas yang terdiri dari satu jurusan saja.<br>
+                <img src="https://i.pinimg.com/736x/91/1d/ff/911dffb30d749f1d033958e5a624ae0b.jpg" width="150"><br>
+                <a href="https://maps.app.goo.gl/xDbpjskf1qxtPC2J7" target="_blank">Lihat di Google Maps</a>
+            `).addTo(map);
+
+            L.marker([-7.772328, 110.380032], {icon: loc_route}).bindPopup(`
+                <b>Fakultas Psikologi</b><br>
+                Fakultas Psikologi terdapat program reguler dan IUP.<br>
+                <img src="https://i.pinimg.com/736x/25/6d/94/256d941464d7bcf80b55848ed9703c9d.jpg" width="150"><br>
+                <a href="https://maps.app.goo.gl/jtc2jbANvFYgfLHo8" target="_blank">Lihat di Google Maps</a>
+            `).addTo(map);
+
+            L.marker([-7.767102, 110.376176], {icon: loc_route}).bindPopup(`
+                <b>Fakultas MIPA</b><br>
+                Fakultas yang terletak di jalan persatuan berkelompok dengan Geografi dan Biologi.<br>
+                <img src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01jad2s709caw5n0mf41sm1k2b.jpg" width="150"><br>
+                <a href="https://maps.app.goo.gl/pwExiquonEZvuXSFA" target="_blank">Lihat di Google Maps</a>
+            `).addTo(map);
+
+            L.marker([-7.769448, 110.374062], {icon: loc_route}).bindPopup(`
+                <b>Fakultas KKMK</b><br>
+                Fakultas yang menghasilkan tenaga kerja bidang kesehatan.<br>
+                <img src="https://i.pinimg.com/736x/bd/33/36/bd33360573db8c3cc3579899f868b3eb.jpg" width="150"><br>
+                <a href="https://maps.app.goo.gl/9Neh4oEmjHB9Ve6eA" target="_blank">Lihat di Google Maps</a>
+            `).addTo(map);
       
         </script>
     </body>
